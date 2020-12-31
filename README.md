@@ -1,2 +1,3 @@
 # Youtube-List-Get-Links-Download-Convert
-This script reads a directory with songs or names then through web scrapping it gets the links, after that it download all the songs and convert them to mp3 with a 320kbps bitrate
+Este script lee un directorio obteniendo de ahí, los nombres de los archivos y volcanolos en un .txt, después mediante web scrapping obteniene los links de dichas canciones, las descarga y convierte a mp3 con un bitrate de 320kbps.
+
