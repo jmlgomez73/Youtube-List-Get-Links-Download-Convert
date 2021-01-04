@@ -34,8 +34,11 @@ Se ha utilizado:
 
 ## Ejecución
 
- ```py -u "converty_to_320.py"```
- 
-  ## Autor ✒️
+ * Puede usar el comando y `` `py -u" Ruta del archivo py "` ``, Es necesario tener la ruta de Python definida en las variables de entorno del sistema.
+
+* Si está utilizando un IDE o un editor de código configurado, simplemente compile y ejecute el código.
+
+
+## Autor ✒️
 
 * **Jorge Manuel Lozano Gómez**
