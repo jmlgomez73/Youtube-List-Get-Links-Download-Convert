@@ -28,7 +28,7 @@ def list_and_filt (ruta):
 
 def download_and_convert_song(url,name):
     
-    path = "C:/Users/Shockz/Desktop/MusicaConvert/"
+    path = "XXX" #Ruta del directorio donde se descargaran los archivos
     if not (os.path.isdir(path)):
         os.mkdir(path)
 
@@ -54,7 +54,7 @@ def obtener_link(filename):
     opts = Options()
     opts.add_argument("--headless")
     lista_links=""
-    driver = webdriver.Chrome("C:/Windows/chromedriver", options=opts)
+    driver = webdriver.Chrome("C:/Windows/chromedriver", options=opts) ##Editar ruta en caso de que la ruta sea distinta.
     with open(filename, "r", encoding="UTF-8") as f:
         for linea in f:  
             try:
@@ -76,7 +76,7 @@ def obtener_link(filename):
 #Mediante la Api v3 de Youtube Data
 def obtener_link_API(query, limit=2):
 
-    API_KEY = "AIzaSyA3SQGgFHhbM3DFNmMqlqMiGxYHc0VuHyE"
+    API_KEY = "XXXX" #Introduzca su API KEY (V3 only)
     url = f"https://www.googleapis.com/youtube/v3/search"
     data = {
         "key": API_KEY,
@@ -92,7 +92,7 @@ def obtener_link_API(query, limit=2):
 
 def manage():
 
-    list_and_filt('C:/Users/Shockz/Desktop/IRENEGUAPA/')
+    list_and_filt('XXXX') #Ruta del directorio donde se encuentran los archivos de los cuales se realizara la busqueda
     list_urls=""
     list_urls = obtener_link("songs.txt")
     #Para utilizar con obtener link con API de Google
