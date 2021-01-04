@@ -8,7 +8,7 @@ Este script lee un directorio obteniendo de ahí, los nombres de los archivos y 
 * Librerias : ```python -m pip install -r requirements.txt``` (En el directorio del codigo)
 
 * Chrome Webdriver: Descarguelo desde aquí: https://chromedriver.chromium.org/downloads
-  Después de eso, descomprimalo y coloquelo en el directorio "system32" (C:/Windows/System32/)
+  Después de eso, descomprimalo y coloquelo en el directorio "C:/Windows/"
   
 * (Opcional) API V3 de Youtube: puedes obtenerla mediante este tutorial: https://programacion.net/articulo/como_obtener_una_clave_para_la_youtube_data_api_1844
 
